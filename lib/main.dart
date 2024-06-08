@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text(
-            'Saomyaraj Jha',
+            'Profile Card',
             style: TextStyle(color: Colors.white),
           ),
           centerTitle: true,
@@ -49,6 +49,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     fontWeight: FontWeight.bold),
               ),
+              const SizedBox(height: 10.0),
               const Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
